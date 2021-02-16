@@ -37,9 +37,11 @@ public class Menu {
 					strtBtn.setVisible(false);
 					strtSel.setVisible(true);
 					map.load();
+					frame.setFocusable(false);
 					map.setFocusable(true);
 					map.addContols();
 					frame.setContentPane(map);
+					map.grabFocus();
 				
 				}
 			});
@@ -56,6 +58,7 @@ public class Menu {
 		map.add(strtSel);
 		frame.add(strtBtn);
 		frame.setVisible(true);
+		frame.setFocusable(false);
 		strtBtn.setFocusable(false);
 	}
 

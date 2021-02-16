@@ -19,14 +19,12 @@ public class Runner{
 	public static  RaceTrack rt;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Program started: "+Calendar.getInstance().getTime());
+		System.out.println("Program started: " + Calendar.getInstance().getTime());
 		frame = new JFrame("RaceWay One");
 		frame.setSize(dim);
-		frame.setLocation(dim.width/2-frame.getWidth()/2,dim.height/2-frame.getHeight()/2);
 		
-		
-		frame.setUndecorated(true);
-		//frame.setExtendedState(Frame.MAXIMIZED_BOTH);
+		frame.setUndecorated(false);
+
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		rt = new RaceTrack(); //New RaceTrack Object
 		frame.add(rt);

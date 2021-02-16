@@ -20,7 +20,6 @@ public class Input extends KeyAdapter {
 		// TODO Auto-generated method stub
 		super.keyPressed(k);
 		key = k.getKeyCode();
-		// System.out.println("Velocity:"+RaceTrack.raceCar.getVelocity());
 		if (key == (KeyEvent.VK_ESCAPE)) {
 			Runner.frame.dispose();
 			int currentMin = Calendar.getInstance().get(Calendar.MINUTE),
@@ -63,7 +62,7 @@ public class Input extends KeyAdapter {
 		}
 
 		if (pressedKeys.contains(KeyEvent.VK_A)) { 
-			raceCar1.setRotation(raceCar1.getRotation()- ROTATION);
+			raceCar1.setRotation(raceCar1.getRotation() - ROTATION);
 			raceCar1.rotation(-ROTATION);
 		}
 

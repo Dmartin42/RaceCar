@@ -116,37 +116,7 @@ public class CreateMap extends JPanel implements ActionListener {
 		if(!road.isEmpty())
 			showRoad(g);
 	}
-	/**
-	 * @param g
-	 */
-	public static void drawRoad(Graphics g) {
-//		Graphics2D g2 = (Graphics2D) g;
-//		float thickness = 2;
-//		Stroke oldStroke = g2.getStroke();
-//		Start.instance().show(g);
-//		g.setColor(Color.BLACK);
-//		g2.setStroke(new BasicStroke(thickness));
-//		
-//			for (Rectangle s : road) {
-//				g2.drawOval(s.x, s.y, s.width, s.height);
-//			} 
-//		
-//		g2.setStroke(oldStroke);
-//		if(connectLines) 
-//			connectLines();
-//		for (Rectangle roadPoint: road) {
-//			for(int line = 0; line < borders.size(); line++) {
-//				if(borders.get(line).intersects(roadPoint)) {
-//					double x1 = borders.get(line).getX1();
-//					double y1 = borders.get(line).getY1();
-//					double x2 = borders.get(line).getX2();
-//					double y2 = borders.get(line).getY2();
-//					g.drawLine((int)x1, (int)y1, (int)x2, (int)y2);
-//				}
-//			}
-//		}
-		g.setColor(Color.BLACK);
-	}
+
 	public void showRoad(Graphics g) {
 		Graphics2D g2d = (Graphics2D)g;
 		
@@ -192,7 +162,7 @@ public class CreateMap extends JPanel implements ActionListener {
 class MenuInput extends KeyAdapter{
 	@Override
 	public void keyPressed(KeyEvent e) {
-		//TODO auto-generated thing I typed this the computer did nothing lol 
+		//TODO auto-generated
 		super.keyPressed(e);
 		int key = e.getKeyCode();
 		

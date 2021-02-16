@@ -82,7 +82,6 @@ public class Start {
 			g.fill(tiles[i]);
 			g.setColor(Color.CYAN);
 		}
-		g.drawRect(tempX, tempY, 180,60);
 		g.setTransform(old);
 	}
 
