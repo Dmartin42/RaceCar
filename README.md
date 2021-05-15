@@ -1,4 +1,4 @@
 # RaceCar
-Proof of concept: demonstrate the ability for a car to detect user made racetrack. 
+Proof of concept: demonstrate the ability for a car to detect the outline using ray-tracing algorithms. Includes a custom map editor.
 
-Java currently has an internal bug. The bug causes inaccurate modeling of coordinates. 
+
